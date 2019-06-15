@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+
+{% block css%}
+	<style type="text/css" >
+#tableSet{
+	width: 88%;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+#selectShow{
+	height: 34px;
+    width: 70px;
+    margin-left: 50px;
+
+}
+.twoSet {
+	margin-top: 10px;
+
+}
+#searchSet{
+	float: right;
+    margin-right: 150px;
+    line-height: 30px;
+	margin-bottom: 20px;
+}
+.selectFrotStype{
+	padding: 17px 4px 10px 10px;
+    font: 20px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    font-family: arial,'Hiragino Sans GB',;
+    color: #999;
+}
+#selectarea{
+	BORDER-RIGHT: #e8e8e8 1px solid;
+    BORDER-TOP: #e8e8e8 1px solid;
+    BORDER-LEFT: #e8e8e8 1px solid;
+    BORDER-BOTTOM: #e8e8e8 1px solid;
+    PADDING: 0px 70px 50px 21px;
+    HEIGHT: 200px;
+    WIDTH: 88%;
+    margin-left: 30px;
+}
+#form_set{
+    margin-top: 20px;
+}
+#buttonSet{
+	padding-top: 10px;
+	height: 39px;
+	padding-left: 743px;
+}
+.selectSizeSet{
+	width: 175px;
+    height: 30px;
+}
+	</style>
+{% endblock %}
+
+{% block section %}
+
+<div id="bodySet">
+	<legend id="legent">{{schoolName}}-专业</legend>
+		<div id="tableSet">
+			<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+					<tr>
+						<th aria-controls="dataTables-example">专业名称</th>
+						<th aria-controls="dataTables-example">专业招生详情(专业排名-计划数-录取数-平均分-最高分-最低分-最低位次)</th>
+					</tr>
+					    {% if professionDataList %}
+						{% for schoolinfData in professionDataList %}
+							<tr>
+								<th aria-controls="dataTables-example" >{{schoolinfData.professionName}}</th>
+								<th aria-controls="dataTables-example">{{schoolinfData.professionInf}}</th>
+							</tr>
+						{% endfor %}
+						{% endif %}
+
+				</table>
+		</div>
+
+
+
+</div>
+
+{% endblock %}
+
+
+{% block script %}
+<script>
+	$(function () {
+		$('.pushwork').each(function () {
+			var pushworkId=$(this).attr("values");
+			console.log(pushworkId)
+			$.ajax({
+                url: "/home/getSubscribe/",
+                type: "POST",
+
+                data: {
+                    "pushworkId": pushworkId
+                },
+                // dataType: "json",
+                success:function(arg) {
+                    var data=jQuery.parseJSON(arg);
+                    console.log(data,data["status"]);
+					// console.log("test")
+                    if(data["status"]){
+                        $("[checkboxID="+"'"+pushworkId+"'"+"]").bootstrapSwitch('state', true);
+					}
+					else{
+                        $("[checkboxID="+"'"+pushworkId+"'"+"]").bootstrapSwitch('state', false);
+					}
+                },
+                false:function(arg) {
+                    console.log("test1")
+					// alert(arg)
+                }
+            })
+
+        })
+    })
+</script>
+
+<script>
+	function setStatus(checkbox){
+	    var taskID=$(checkbox).attr('checkboxID');
+
+	    var status=$(checkbox).bootstrapSwitch('state');
+	    console.log(taskID,status);
+		$.ajax({
+                url: "/home/setSubscribe/",
+                type: "POST",
+
+                data: {
+                    "taskID": taskID,
+					"status":status,
+                },
+                // dataType: "json",
+                success: function (arg) {
+                    if(!arg){
+                        alert(arg)
+					}
+                },
+                false: function (arg) {
+					 alert(arg)
+                }
+            })
+	}
+</script>
+{% endblock %}

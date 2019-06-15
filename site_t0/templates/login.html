@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block css%}
+	<style type="text/css" >
+#tableSet{
+	width: 88%;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+#selectShow{
+	height: 34px;
+    width: 70px;
+    margin-left: 50px;
+
+}
+.twoSet {
+	margin-top: 10px;
+
+}
+#searchSet{
+	float: right;
+    margin-right: 150px;
+    line-height: 30px;
+}
+#set1{
+    padding-top: 83px;
+    height: 100%;
+    padding-bottom: 500px;
+}
+#set2{
+	    width: 50%;
+    height: 500px;
+    float: left;
+}
+#submitSet{
+	margin-left: 347px;
+    margin-top: 40px;
+    height: 40px;
+    width: 66px;
+}
+	</style>
+{% endblock %}
+
+{% block section %}
+
+<div id="set1">
+	<div id="set2">
+		<img src="/static/img/login.jpeg" style="width: 100%;height: 100%;">
+	</div>
+	<div id="set2">
+		<legend id="legent">用户登陆</legend>
+	<form action="/login/" method="post" id="form_set">
+
+			<div class="form-group">
+				<input type="text" id="contact_email" class="form-control" name="userName"  placeholder="用户名" style="width:45%;		height:45px	;	margin-left: 130px	;	margin-top: 30px;"/>
+			</div>
+			<div class="form-group">
+				<input type="password" id="contact_subject" class="form-control"  name="passwd" style="width:45%;		height:45px	;	margin-left: 130px	;	margin-top: 30px;" placeholder="密码" />
+			</div>
+
+			<div class="form-group">
+				<!--<button style="margin-left: 130px;margin-top:40px;"  class="btn btn-danger" type="submit" name="submit">提交</button>-->
+				<input type="submit"  id="submitSet" name="submit" value="登陆"/>
+<!--				<a href="/home/register/" class="btn btn-danger" style="margin-left: 180px;margin-top:40px;">用户注册</a>-->
+				<p style="color:indianred;margin-left:240px;font-size:18px;margin-top:40px;" class="col-sm-7">{{ msg }}</p>
+			</div>
+		</form>
+
+	</div>
+
+</div>
+
+{% endblock %}
+
+
+
+

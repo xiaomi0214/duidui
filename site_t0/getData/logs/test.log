@@ -1,0 +1,696 @@
+2019-05-19 20:44:55,992  - INFO-[81] - 学校未插入，现在插入学校信息--北京大学
+2019-05-19 20:44:56,341  - INFO-[85] - 北京大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1001,"北京大学","教育部","3","北京市","985/A","极差5分内");
+2019-05-19 20:44:56,341  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,19,21,702,232,49,1001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,20,20,699,225,48,1001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,20,20,699,225,47,1001);
+
+2019-05-19 20:44:58,480  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:44:58,819  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("生物科学","6A++  --  1/693（39）  --  （1）3/706/711/702（45）  --  （1）2/709/714/704（22）  --  ",1001);
+2019-05-19 20:44:59,160  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:00,957  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类","  --  （1）8/699/706/695（32）  --  （1）2/707/709/705（27）  --  （1）3/704/704/703（28）  --  ",1001);
+2019-05-19 20:45:01,283  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:01,976  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("工商管理类","  --  （1）2/705/714/697（24）  --  （1）4/713/721/708（19）  --  （1）5/709/716/701（37）  --  ",1001);
+2019-05-19 20:45:02,325  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:02,996  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("数学类","  --  （1）无录取数据  --  1/716（7）  --  （1）4/704/706/701（37）  --  ",1001);
+2019-05-19 20:45:03,359  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:04,733  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("物理学类","  --  （1）2/711/721/701（10）  --  （1）3/710/717/705（29）  --  （1）2/703/705/701（37）  --  ",1001);
+2019-05-19 20:45:06,065  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:07,348  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("电子信息类","  --  （3）1/695（32）  --  （3）2/703/704/702（47）  --  （2）3/703/705/700（43）  --  ",1001);
+2019-05-19 20:45:07,667  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:08,446  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("经济学类","  --  （1）无录取数据  --  （1）5/705/707/702（46）  --  （1）2/707/715/699（47）  --  ",1001);
+2019-05-19 20:45:08,779  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:10,677  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班类","  --  （2）1/695（39）  --  （2）无录取数据  --  （2）无录取数据  --  ",1001);
+2019-05-19 20:45:11,717  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:12,996  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("地质学类","  --  （1）无录取数据  --  （1）无录取数据  --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:13,341  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:14,243  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("环境科学与工程类","  --  （1）无录取数据  --  （1）无录取数据  --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:14,571  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:15,858  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("考古学","1A++  --  （1）无录取数据  --  （1）无录取数据  --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:16,180  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:16,898  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("心理学","2A++  --  （1）无录取数据  --  （1）无录取数据  --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:17,236  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:18,059  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("信息管理与信息系统","B+  --  （1）无录取数据  --  （1）无录取数据  --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:18,384  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:19,635  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("城乡规划","B+  --    --  （1）无录取数据  --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:19,977  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:20,654  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("地球物理学类","  --    --  （1）无录取数据  --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:21,687  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:23,578  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("化学类","  --  （1）2/699/706/692（45）  --  1/702（49）  --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:24,042  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:24,821  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("法学","3A++  --    --    --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:25,755  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:27,061  - INFO-[218] - 插入专业信息-pro：1001-insert into profession(professionName,professionInf,schoolId_id) values("天文学","B+  --    --    --  （1）无录取数据  --  ",1001);
+2019-05-19 20:45:27,394  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:27,711  - INFO-[81] - 学校未插入，现在插入学校信息--清华大学
+2019-05-19 20:45:28,138  - INFO-[85] - 清华大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1003,"清华大学","教育部","1","北京市","985/A","分数优先");
+2019-05-19 20:45:28,140  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,32,33,701,231,59,1003);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,41,41,697,248,65,1003);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,41,41,696,222,68,1003);
+
+2019-05-19 20:45:29,164  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:45:30,095  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（数理）","  --    --    --  （4）2/715/715/715（4）  --  ",1003);
+2019-05-19 20:45:30,421  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:31,184  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（新雅书院）","  --    --  1/715（8）  --  （1）2/711/713/709（11）  --  ",1003);
+2019-05-19 20:45:31,523  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:32,795  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("建筑类 （五年）","  --  1/700（16）  --  （1）2/706/706/706（24）  --  2/709/711/706（16）  --  ",1003);
+2019-05-19 20:45:33,121  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:33,773  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（化生）","  --    --    --  2/703/704/703（35）  --  ",1003);
+2019-05-19 20:45:34,197  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:34,865  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（经济、金融与管理）","  --    --    --  1/702（35）  --  ",1003);
+2019-05-19 20:45:35,785  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:36,463  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("法学（含国际班）","7A++  --    --    --  1/701（37）  --  ",1003);
+2019-05-19 20:45:37,410  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:39,421  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("计算机类","  --    --    --  （2）3/709/719/699（47）  --  ",1003);
+2019-05-19 20:45:40,374  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:41,114  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("土木类","  --    --    --  （4）2/699/700/698（55）  --  ",1003);
+2019-05-19 20:45:41,460  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:42,115  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班类（自动化与工业工程） ","  --    --    --  （2）4/703/708/698（55）  --  ",1003);
+2019-05-19 20:45:42,450  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:43,119  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班类（能源）","  --    --    --  4/698/700/697（59）  --  ",1003);
+2019-05-19 20:45:43,427  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:44,184  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班类（机械、航空与动力）","  --    --    --  （8）7/699/703/697（59）  --  ",1003);
+2019-05-19 20:45:44,515  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:45,792  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班类（环境、化工与新材料）","  --    --    --  （5）6/700/706/697（59）  --  ",1003);
+2019-05-19 20:45:46,141  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:46,798  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("电子信息类","  --  （2）4/701/708/693（39）  --  （2）4/709/721/703（42）  --  （4）5/705/716/697（59）  --  ",1003);
+2019-05-19 20:45:47,131  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:47,783  - INFO-[218] - 插入专业信息-pro：1003-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（人文与社会）","  --    --    --  （1）无录取数据  --  ",1003);
+2019-05-19 20:45:48,213  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:48,520  - INFO-[81] - 学校未插入，现在插入学校信息--复旦大学
+2019-05-19 20:45:48,865  - INFO-[85] - 复旦大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(4001,"复旦大学","教育部","5","上海市","985/A","分数优先");
+2019-05-19 20:45:48,865  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,6,6,695,225,115,4001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,6,7,691,242,101,4001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,6,6,690,216,130,4001);
+
+2019-05-19 20:45:49,924  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:45:50,253  - INFO-[218] - 插入专业信息-pro：4001-insert into profession(professionName,professionInf,schoolId_id) values("经济学类（含荷兰格罗宁大学“2+2”双学位）","  --    --    --  2/694/694/694(75)  --  ",4001);
+2019-05-19 20:45:51,299  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:51,957  - INFO-[218] - 插入专业信息-pro：4001-insert into profession(professionName,professionInf,schoolId_id) values("数学类（拔尖人才培养计划）","  --  (1)2/689/687/687(72)  --  2/697/698/695(115)  --  (2)3/693/694/692(93)  --  ",4001);
+2019-05-19 20:45:52,313  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:52,970  - INFO-[218] - 插入专业信息-pro：4001-insert into profession(professionName,professionInf,schoolId_id) values("经济管理试验班","  --    --  (2)1/696(98)  --  2/691/691/691(100)  --  ",4001);
+2019-05-19 20:45:53,312  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:53,634  - INFO-[81] - 学校未插入，现在插入学校信息--上海交通大学
+2019-05-19 20:45:54,073  - INFO-[85] - 上海交通大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(4003,"上海交通大学","教育部","4","上海市","985/A","分数优先");
+2019-05-19 20:45:54,073  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,14,14,693,223,151,4003);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,16,16,688,239,132,4003);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,19,19,685,211,250,4003);
+
+2019-05-19 20:45:55,062  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:45:55,401  - INFO-[218] - 插入专业信息-pro：4003-insert into profession(professionName,professionInf,schoolId_id) values("机械类（国际化人才培养试点班）","  --  2/683/685/681(123)  --  （2）无录取数据  --  （2）1/689（116）  --  ",4003);
+2019-05-19 20:45:56,361  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:45:57,676  - INFO-[218] - 插入专业信息-pro：4003-insert into profession(professionName,professionInf,schoolId_id) values("电子信息类","  --    --    --  （6）8/690/694/688（124）  --  ",4003);
+2019-05-19 20:45:58,714  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:00,558  - INFO-[218] - 插入专业信息-pro：4003-insert into profession(professionName,professionInf,schoolId_id) values("机械类","  --    --    --  （3）1/688（124）  --  ",4003);
+2019-05-19 20:46:01,006  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:02,292  - WARNING-[211] - 存在同学院相同专业名称-4003-电子信息类;查询结果:((2391, '\xe7\x94\xb5\xe5\xad\x90\xe4\xbf\xa1\xe6\x81\xaf\xe7\xb1\xbb', '  --    --    --  \xef\xbc\x886\xef\xbc\x898/690/694/688\xef\xbc\x88124\xef\xbc\x89  --  ', 4003),)
+2019-05-19 20:46:02,292  - INFO-[218] - 插入专业信息-pro：4003-insert into profession(professionName,professionInf,schoolId_id) values("电子信息类1","  --  2/680/681/680（137）  --  2/697/699/695（120）  --  （2）8/690/694/688（124）  --  ",4003);
+2019-05-19 20:46:03,239  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:04,611  - WARNING-[211] - 存在同学院相同专业名称-4003-电子信息类;查询结果:((2391, '\xe7\x94\xb5\xe5\xad\x90\xe4\xbf\xa1\xe6\x81\xaf\xe7\xb1\xbb', '  --    --    --  \xef\xbc\x886\xef\xbc\x898/690/694/688\xef\xbc\x88124\xef\xbc\x89  --  ', 4003),)
+2019-05-19 20:46:04,611  - INFO-[218] - 插入专业信息-pro：4003-insert into profession(professionName,professionInf,schoolId_id) values("电子信息类2","  --    --  （1）无录取数据  --  （1）8/690/694/688（124）  --  ",4003);
+2019-05-19 20:46:04,947  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:05,594  - INFO-[218] - 插入专业信息-pro：4003-insert into profession(professionName,professionInf,schoolId_id) values("经济学类","  --  2/681/682/680（137）  --  （2）3/697/700/695（126）  --  （1）2/690/691/688（124）  --  ",4003);
+2019-05-19 20:46:06,936  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:07,579  - INFO-[218] - 插入专业信息-pro：4003-insert into profession(professionName,professionInf,schoolId_id) values("英语","9A++  --  （1）无录取数据  --  （1）无录取数据  --  （1）无录取数据  --  ",4003);
+2019-05-19 20:46:08,013  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:08,680  - INFO-[218] - 插入专业信息-pro：4003-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类","  --    --    --  （1）无录取数据  --  ",4003);
+2019-05-19 20:46:09,760  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:10,086  - INFO-[81] - 学校未插入，现在插入学校信息--北京大学医学部
+2019-05-19 20:46:10,420  - INFO-[85] - 北京大学医学部--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1063,"北京大学医学部","教育部","3","北京市","985/A","极差5分内");
+2019-05-19 20:46:10,420  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,18,24,690,220,197,1063);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,20,24,685,236,183,1063);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,21,21,688,214,172,1063);
+
+2019-05-19 20:46:12,223  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:46:12,601  - INFO-[218] - 插入专业信息-pro：1063-insert into profession(professionName,professionInf,schoolId_id) values("口腔医学（八年医）","2A++  --    --  (1)2/700/700/700(70)  --  1/694（75）   --  ",1063);
+2019-05-19 20:46:12,911  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:13,608  - INFO-[218] - 插入专业信息-pro：1063-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（五年）","2A++  --  （7）8/681/692/677（175）  --  （4）5/692/694/）691（175  --  4/690/692/688（124）  --  ",1063);
+2019-05-19 20:46:14,036  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:16,082  - INFO-[218] - 插入专业信息-pro：1063-insert into profession(professionName,professionInf,schoolId_id) values("预防医学（七年医）","1A++  --  （2）4/674/676/673（232）  --  （1）2/693/695/690（195）  --  1/688（124）  --  ",1063);
+2019-05-19 20:46:18,105  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:19,358  - INFO-[218] - 插入专业信息-pro：1063-insert into profession(professionName,professionInf,schoolId_id) values("基础医学（八年医）","2A+  --  3/683/688/674（213）  --  3/692/693/690（197）  --  3/688/689/687（141）  --  ",1063);
+2019-05-19 20:46:19,684  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:21,052  - INFO-[218] - 插入专业信息-pro：1063-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（八年医）","2A++  --    --  （3）5/699/701/697（92）  --  （5）7/693/699/687（141）  --  ",1063);
+2019-05-19 20:46:21,980  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:22,648  - INFO-[218] - 插入专业信息-pro：1063-insert into profession(professionName,professionInf,schoolId_id) values("药学（六年）","2A++  --  （3）5/682/689/676（185）  --  （3）4/697/701/695（124）  --  3/686/686/686（155）  --  ",1063);
+2019-05-19 20:46:23,986  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:24,709  - INFO-[218] - 插入专业信息-pro：1063-insert into profession(professionName,professionInf,schoolId_id) values("口腔医学（五年）","2A++  --  （3）4/680/683/674（213）  --  2/698/699/697（88）  --  2/686/686/685（174）  --  ",1063);
+2019-05-19 20:46:25,065  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:25,742  - INFO-[218] - 插入专业信息-pro：1063-insert into profession(professionName,professionInf,schoolId_id) values("英语（五年）（医学英语）","2A++  --  1/678/（157）  --  1/690（185）  --  （1）3/685/685/685（174）  --  ",1063);
+2019-05-19 20:46:26,104  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:26,434  - INFO-[81] - 学校未插入，现在插入学校信息--上海交通大学医学院
+2019-05-19 20:46:26,759  - INFO-[85] - 上海交通大学医学院--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(4036,"上海交通大学医学院","教育部","4","上海市","985/A","分数优先");
+2019-05-19 20:46:26,759  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,5,5,687,217,243,4036);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,5,5,683,234,215,4036);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,5,5,685,211,226,4036);
+
+2019-05-19 20:46:28,473  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:46:28,809  - INFO-[218] - 插入专业信息-pro：4036-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（八年医）","1A++  --  6/672/680/663（469）  --  3/693/695/692（158）  --  （2）5/685/690/683（204）  --  ",4036);
+2019-05-19 20:46:29,155  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:29,516  - INFO-[81] - 学校未插入，现在插入学校信息--复旦大学医学部
+2019-05-19 20:46:29,861  - INFO-[85] - 复旦大学医学部--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(4039,"复旦大学医学部","教育部","5","上海市","985/A","1-1-1-0-0");
+2019-05-19 20:46:29,861  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,4,5,687,217,246,4039);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,3,3,683,234,221,4039);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,3,3,685,211,236,4039);
+
+2019-05-19 20:46:32,790  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:46:33,138  - INFO-[218] - 插入专业信息-pro：4039-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（八年医）（卓越医生计划）","3A++  --  （2）3/677/680/676（185）  --  （4）5/688/689/687（246）  --  2/686/687/684（188）  --  ",4039);
+2019-05-19 20:46:34,647  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:35,954  - INFO-[218] - 插入专业信息-pro：4039-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（五年）（卓越医生计划）","3A++  --    --    --  1/683（204）  --  ",4039);
+2019-05-19 20:46:36,292  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:37,651  - INFO-[81] - 学校未插入，现在插入学校信息--中国科学院大学
+2019-05-19 20:46:38,092  - INFO-[85] - 中国科学院大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1066,"中国科学院大学","中国科学院","0","北京市","X","分数优先");
+2019-05-19 20:46:38,092  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,14,14,685,215,295,1066);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,14,14,680,231,254,1066);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,14,14,680,206,355,1066);
+
+2019-05-19 20:46:39,704  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:46:40,038  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("数学与应用数学","  --  2/678/679/677(175)  --  2/693/695/690(191)  --  1/693(86)  --  ",1066);
+2019-05-19 20:46:40,358  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:41,134  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("化学","  --   2/673/676/671（263）  --  （2）1/687（249）  --  1/692(93)  --  ",1066);
+2019-05-19 20:46:41,513  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:42,788  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("计算机科学与技术","  --   2/671/671/671（263）  --  （5）3/685/686/685（295）  --  2/689/691/686（155）  --  ",1066);
+2019-05-19 20:46:43,122  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:43,782  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("物理学","  --  2/673/674/672（245）  --  （3）2/688/689/687（259）  --  2/687/687/686（155）  --  ",1066);
+2019-05-19 20:46:44,203  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:45,490  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("材料科学与工程","  --  1/678/（157）  --  1/688（235）  --  1/686（155）  --  ",1066);
+2019-05-19 20:46:45,812  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:47,526  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("电子信息工程","  --    --    --  2/686/687/684（188）  --  ",1066);
+2019-05-19 20:46:47,963  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:48,618  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("理论与应用力学","  --    --    --  1/684（188）  --  ",1066);
+2019-05-19 20:46:49,572  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:51,533  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("天文学","  --    --    --  1/683（204）  --  ",1066);
+2019-05-19 20:46:52,486  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:54,664  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("环境科学","  --    --    --  1/682（222）  --  ",1066);
+2019-05-19 20:46:54,993  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:56,697  - INFO-[218] - 插入专业信息-pro：1066-insert into profession(professionName,professionInf,schoolId_id) values("生物科学","  --  1/676（185）  --  1/690（189）  --  2/682/684/680（254）  --  ",1066);
+2019-05-19 20:46:57,039  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:46:58,084  - INFO-[81] - 学校未插入，现在插入学校信息--中国科学技术大学
+2019-05-19 20:46:58,415  - INFO-[85] - 中国科学技术大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(3202,"中国科学技术大学","中国科学院","16","合肥市","985/A","分数优先");
+2019-05-19 20:46:58,417  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,29,29,681,211,374,3202);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,33,33,675,266,374,3202);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,33,33,680,206,368,3202);
+
+2019-05-19 20:46:59,421  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:46:59,743  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（00班）","  --  4/676/690/670[284]  --  2/690/691/689[208]  --  (2）3/689/694/686[155]  --  ",3202);
+2019-05-19 20:47:00,075  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:01,729  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班类（科技英才班）","  --    --  2/692/692/691[180]  --  （2）3/686/687/685[174]  --  ",3202);
+2019-05-19 20:47:02,042  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:04,397  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（科技英才班）","  --    --  2/689/691/687[258]  --  2/682/683/680[254]  --  ",3202);
+2019-05-19 20:47:04,710  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:06,164  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("数学类","  --  2/670/671/669[304]  --  2/684/684/684/316  --  2/680/680/679[272]  --  ",3202);
+2019-05-19 20:47:06,790  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:07,726  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("电子信息类","  --  4/669/671/668[326]  --  4/682/682/681/366  --  5/679/680/678/298  --  ",3202);
+2019-05-19 20:47:08,845  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:09,505  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("物理学类 ","  --  4/668/670/668[326]  --  5/6/685/687/683/341  --  6/680/682/677/319  --  ",3202);
+2019-05-19 20:47:09,819  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:10,460  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("计算机类","  --  1/669[304]  --  1/683/333  --  3/677/678/676/338  --  ",3202);
+2019-05-19 20:47:10,782  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:11,529  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("化学类","  --  2/667/667/667/351  --  2/682/682/681/374  --  2/677/677/676/338  --  ",3202);
+2019-05-19 20:47:12,463  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:13,750  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班 ","  --  6/669/673/668/326  --  5/682/682/681/371  --  4/676/679/675/362  --  ",3202);
+2019-05-19 20:47:14,220  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:15,492  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("材料类","  --  1/668/326  --  1无录取数据  --  2/676/676/675/362  --  ",3202);
+2019-05-19 20:47:16,858  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:17,621  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("地球物理学类","  --  1/667/351  --  1/681/365  --  1/675/362  --  ",3202);
+2019-05-19 20:47:18,035  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:18,747  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("生物科学类","  --  1/667/351  --  1/2/684/686/681/364  --  1无录取数据  --  ",3202);
+2019-05-19 20:47:19,069  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:20,342  - INFO-[218] - 插入专业信息-pro：3202-insert into profession(professionName,professionInf,schoolId_id) values("经济管理试验班","  --  1/667/351  --  1无录取数据  --  1无录取数据  --  ",3202);
+2019-05-19 20:47:20,670  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:21,714  - INFO-[81] - 学校未插入，现在插入学校信息--浙江大学
+2019-05-19 20:47:23,055  - INFO-[85] - 浙江大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(4201,"浙江大学","教育部","2","杭州市","985/A","分数优先");
+2019-05-19 20:47:23,055  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,62,62,683,213,388,4201);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,62,62,678,229,309,4201);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,62,62,680,206,384,4201);
+
+2019-05-19 20:47:24,418  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:47:25,354  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（竺可桢学院交叉创新平台）","  --    --  4/694/696/692（156）  --  4/691/694/688(124）  --  ",4201);
+2019-05-19 20:47:25,671  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:26,358  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（信息）","  --    --  （13）14/689/692/687（247）  --  (13)15/684/688/681(237)  --  ",4201);
+2019-05-19 20:47:26,671  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:27,595  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（电气与自动化）","  --    --  7/689/692/687（254)  --  (7）12/681/687/680（254）  --  ",4201);
+2019-05-19 20:47:28,026  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:28,701  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（材料与化工）","  --    --  5/685/686/683（332）  --  （5）2/681/681/680（254）  --  ",4201);
+2019-05-19 20:47:29,009  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:29,653  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("理科实验班类","  --  6/9/673/680/670/284  --  8/687/691/684（301）  --  （8）12/681/687/679（272）  --  ",4201);
+2019-05-19 20:47:29,986  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:31,332  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("科技与创意设计试验班","  --  3无录取数据  --  （2）5/684/688/683（327）  --  （2）4/681/681/679（272）  --  ",4201);
+2019-05-19 20:47:32,266  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:32,934  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("医学试验班（八年医）","  --    --  2/685/685/685（280）  --  （2）1/679（272）  --  ",4201);
+2019-05-19 20:47:33,282  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:34,049  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（中外合作办学ZJUUIUC联合学院）","  --    --  2/685/685/685（291）  --  2/681/684/678（298）  --  ",4201);
+2019-05-19 20:47:34,980  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:36,246  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（机械与能源）","  --    --  7/684/685/684（317）  --  （7）5/680/682/678（298）  --  ",4201);
+2019-05-19 20:47:37,635  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:39,026  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("社会科学试验班","  --  8/3/672/675/670/284  --  （6）2/684/684/683(323)  --  （6）5/678/679/678（298）  --  ",4201);
+2019-05-19 20:47:39,362  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:41,355  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（航空航天与过程装备）","  --  1/670（284）  --  4/684/685/683(338)  --  （4）无录取数据  --  ",4201);
+2019-05-19 20:47:42,313  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:43,628  - INFO-[218] - 插入专业信息-pro：4201-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（建筑与土木）","  --  1/671（263）  --  2/685/685/684(319)  --  （2）无录取数据  --  ",4201);
+2019-05-19 20:47:44,348  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:44,713  - INFO-[81] - 学校未插入，现在插入学校信息--南京大学
+2019-05-19 20:47:45,085  - INFO-[85] - 南京大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(3001,"南京大学","教育部","6","南京市","985/A","分数优先");
+2019-05-19 20:47:45,086  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,37,37,679,209,415,3001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,40,40,673,224,416,3001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,39,39,678,204,421,3001);
+
+2019-05-19 20:47:46,098  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:47:47,076  - INFO-[218] - 插入专业信息-pro：3001-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（大理科班）","  --    --    --  2/679/679/678(298)  --  ",3001);
+2019-05-19 20:47:47,397  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:48,131  - INFO-[218] - 插入专业信息-pro：3001-insert into profession(professionName,professionInf,schoolId_id) values("计算机类","  --    --    --  4/677/678/676(338)  --  ",3001);
+2019-05-19 20:47:48,470  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:49,164  - INFO-[218] - 插入专业信息-pro：3001-insert into profession(professionName,professionInf,schoolId_id) values("软件工程","5A++  --  3/666/667/666(378)  --  3/683/687/680(382)  --  3/676/677/675(362)  --  ",3001);
+2019-05-19 20:47:49,506  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:50,164  - INFO-[218] - 插入专业信息-pro：3001-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班（数理科学类）","  --    --    --  (6)7/676/677/675(362)  --  ",3001);
+2019-05-19 20:47:50,502  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:51,874  - INFO-[218] - 插入专业信息-pro：3001-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班（地球科学与资源环境类）","  --    --    --  (4)5/677/685/674(383)  --  ",3001);
+2019-05-19 20:47:52,209  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:53,443  - INFO-[218] - 插入专业信息-pro：3001-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班（化学与生命科学类）","  --    --    --  (3)1/674(383)  --  ",3001);
+2019-05-19 20:47:53,756  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:55,111  - INFO-[218] - 插入专业信息-pro：3001-insert into profession(professionName,professionInf,schoolId_id) values("经济管理试验班","  --    --    --  8/674/676/673(405)  --  ",3001);
+2019-05-19 20:47:56,049  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:56,703  - INFO-[218] - 插入专业信息-pro：3001-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班","  --    --    --  5/674/675/673(405)  --  ",3001);
+2019-05-19 20:47:57,032  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:57,676  - INFO-[218] - 插入专业信息-pro：3001-insert into profession(professionName,professionInf,schoolId_id) values("电子信息类","  --  2/669/669/669(304)  --  4/681/681/680(401)  --  5/674/674/673(405)  --  ",3001);
+2019-05-19 20:47:58,098  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:47:58,421  - INFO-[81] - 学校未插入，现在插入学校信息--中国人民大学
+2019-05-19 20:47:58,759  - INFO-[85] - 中国人民大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1002,"中国人民大学","教育部","19","北京市","985/A","级差1分");
+2019-05-19 20:47:58,760  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,24,24,680,210,387,1002);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,29,29,672,223,449,1002);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,28,28,678,204,426,1002);
+
+2019-05-19 20:48:00,323  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:48:01,348  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("金融学类","  --  3/674/680/671（263）  --  2/694/695/693(146)  --  2/685/686/684(1880  --  ",1002);
+2019-05-19 20:48:01,677  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:02,971  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("法学","1A++  --  3/670/678/666（378）  --  2/690/692/688（228）  --  2/683/686/679（272）  --  ",1002);
+2019-05-19 20:48:04,012  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:04,660  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("统计学类","  --  2/677/678/677（175）  --  3/692/694/689(218)  --  4/683/687/678（298）  --  ",1002);
+2019-05-19 20:48:05,584  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:06,835  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班（信息与数学）","  --    --  3/688/689/687（2510  --  5/678/680/676（338）  --  ",1002);
+2019-05-19 20:48:07,174  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:07,918  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班（环境理工、环境经管）","  --    --  3/681/683/680(3780  --  （4）5/675/676/674（383）  --  ",1002);
+2019-05-19 20:48:08,848  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:10,095  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班（物理、化学与心理学）","  --    --  2/682/683/681(357)  --  2/674/675/673（405）  --  ",1002);
+2019-05-19 20:48:12,125  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:13,469  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("国际政治","1A++  --    --  1/682(351)  --  1/673（405）  --  ",1002);
+2019-05-19 20:48:13,993  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:14,859  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("经济学类","  --    --  1/693(142)  --  1/673（4050  --  ",1002);
+2019-05-19 20:48:15,207  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:16,365  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("工商管理类","  --  3/670/678/666(378)  --  4/686/689/683（328）  --  4/675/679/672(430)  --  ",1002);
+2019-05-19 20:48:17,298  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:18,628  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("社会学类","  --  2/667/668/666（378）  --  2/683/686/680（387）  --  2/675/677/672（430)  --  ",1002);
+2019-05-19 20:48:18,947  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:19,589  - INFO-[218] - 插入专业信息-pro：1002-insert into profession(professionName,professionInf,schoolId_id) values("新闻传播学类","  --  1/675（201）  --  1/688（220）  --  (2)1/672(430)  --  ",1002);
+2019-05-19 20:48:19,904  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:20,226  - INFO-[81] - 学校未插入，现在插入学校信息--上海财经大学
+2019-05-19 20:48:20,535  - INFO-[85] - 上海财经大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(4015,"上海财经大学","教育部","91","上海市","211/X","3-3-1-1-1");
+2019-05-19 20:48:20,535  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,12,12,675,205,521,4015);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,12,12,670,221,447,4015);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,12,12,674,200,562,4015);
+
+2019-05-19 20:48:21,596  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:48:21,921  - INFO-[218] - 插入专业信息-pro：4015-insert into profession(professionName,professionInf,schoolId_id) values("工商管理类(中外合作办学)(ACCA","  --  2/665/667/663(469)  --    --  4/678/682/674(383)  --  ",4015);
+2019-05-19 20:48:22,260  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:22,888  - INFO-[218] - 插入专业信息-pro：4015-insert into profession(professionName,professionInf,schoolId_id) values("保险学(保险精算)","8A  --    --  2/677/678/676(481)  --  3/675/680/672(430)  --  ",4015);
+2019-05-19 20:48:23,927  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:25,167  - INFO-[218] - 插入专业信息-pro：4015-insert into profession(professionName,professionInf,schoolId_id) values("数学类","  --  (4)6/663/665/662(494)  --  (3)4/676/677/675(521)  --  3/672/674/671(458)  --  ",4015);
+2019-05-19 20:48:26,140  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:28,105  - INFO-[218] - 插入专业信息-pro：4015-insert into profession(professionName,professionInf,schoolId_id) values("经济学类","  --  2/663/663/663(469)  --  3/678/679/678(450)  --  2/671/672/670(476)  --  ",4015);
+2019-05-19 20:48:29,039  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:30,342  - INFO-[81] - 学校未插入，现在插入学校信息--北京航空航天大学
+2019-05-19 20:48:30,664  - INFO-[85] - 北京航空航天大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1006,"北京航空航天大学","工信部","25","北京市","985/A","分数优先");
+2019-05-19 20:48:30,664  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,111,118,668,198,742,1006);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,119,111,662,213,705,1006);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,96,96,672,198,643,1006);
+
+2019-05-19 20:48:32,522  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:48:33,463  - INFO-[218] - 插入专业信息-pro：1006-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（高等理工学院）","  --    --  12/680/684/679（437)  --  8/676/680/674(383)  --  ",1006);
+2019-05-19 20:48:33,808  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:35,677  - INFO-[218] - 插入专业信息-pro：1006-insert into profession(professionName,professionInf,schoolId_id) values("工科实验班类（国际通用工程学院）","  --    --    --  2/674/674/673(405)  --  ",1006);
+2019-05-19 20:48:36,002  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:36,700  - INFO-[218] - 插入专业信息-pro：1006-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班类（信息类）","  --    --    --  18/670/675/669(509)  --  ",1006);
+2019-05-19 20:48:37,039  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:37,743  - INFO-[218] - 插入专业信息-pro：1006-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班类（医工交叉实验班）","  --    --    --  2/669/670/667(562)  --  ",1006);
+2019-05-19 20:48:38,190  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:39,450  - INFO-[218] - 插入专业信息-pro：1006-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类（中法工程师学院）","  --    --  (3)5/672/676/670(674)  --  3/668/669/666(588)  --  ",1006);
+2019-05-19 20:48:39,779  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:40,437  - INFO-[218] - 插入专业信息-pro：1006-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班类（航空航天类）","  --    --    --  (62)66/667/673/663(675)  --  ",1006);
+2019-05-19 20:48:40,756  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:42,130  - INFO-[218] - 插入专业信息-pro：1006-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班类","  --  （11）15/664/669/656（663）  --    --  (16)12/665/672/662(700)  --  ",1006);
+2019-05-19 20:48:42,444  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:42,776  - INFO-[81] - 学校未插入，现在插入学校信息--同济大学
+2019-05-19 20:48:43,721  - INFO-[85] - 同济大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(4002,"同济大学","教育部","18","上海市","985/A","分数优先");
+2019-05-19 20:48:43,723  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,57,57,668,198,733,4002);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,58,65,660,211,791,4002);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,58,58,671,197,706,4002);
+
+2019-05-19 20:48:46,509  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:48:46,855  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("车辆工程（五年）","4A++  --  3/663/666/661(518)  --  3/680/681/678（463）  --  2/676/677/674（383）  --  ",4002);
+2019-05-19 20:48:47,782  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:49,690  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("土木工程","2A++  --    --    --  5/673/674/672（430）  --  ",4002);
+2019-05-19 20:48:50,028  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:51,358  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("风景园林","1A++  --  (1)2/664/665/664(437)  --  1/679（407）  --  1/672（430）  --  ",4002);
+2019-05-19 20:48:51,684  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:52,326  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("城乡规划（五年）","1A++  --  (1)2/663/663/663(469)  --  1/683（324）  --  1/672（430）  --  ",4002);
+2019-05-19 20:48:52,650  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:53,302  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("工业设计","16A  --  1/657(636)  --  1/676（494）  --  1/671（458)  --  ",4002);
+2019-05-19 20:48:53,640  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:54,996  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（5+3年）","11A  --    --    --  1/670(476)  --  ",4002);
+2019-05-19 20:48:55,315  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:55,982  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班（海洋类）","  --  5/657/665/653(758)  --  (1)3/673/674/672（614）  --  1/668(531)  --  ",4002);
+2019-05-19 20:48:56,286  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:57,502  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（交通类）","  --    --  2/676/677/675(526)  --  (3)4/669/671/667(562)  --  ",4002);
+2019-05-19 20:48:57,930  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:48:58,579  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（环境类）","  --    --  2/676/677/674（557)  --  3/667/668/666(588)  --  ",4002);
+2019-05-19 20:48:59,500  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:00,763  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班（数学类）","  --    --  2/673/673/673（582）  --  2/667/668/666(588)  --  ",4002);
+2019-05-19 20:49:01,691  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:02,950  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("工程力学","B+  --  1/662(494)  --  （1）2/673/674/671（651）  --  1/665(624)  --  ",4002);
+2019-05-19 20:49:03,259  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:04,007  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("测绘工程","2A++  --  (1)2/652/653/652（793）  --  1/674（559）  --  1/665(624)  --  ",4002);
+2019-05-19 20:49:04,345  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:05,045  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("工程试验班（电子类）","  --    --    --  2/664/664/663(675)  --  ",4002);
+2019-05-19 20:49:05,372  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:06,039  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("口腔医学（五年）","10A  --  （1）2/652/653/652（793）  --  (1)无录取数据  --  1/663(675)  --  ",4002);
+2019-05-19 20:49:06,967  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:07,605  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("生物科学类","  --    --  （1）2/671/672/669(669)  --  (2)1/663(675)  --  ",4002);
+2019-05-19 20:49:08,061  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:08,736  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班（化学类）","  --    --  1/672（620）  --  3/663/667/661(725)  --  ",4002);
+2019-05-19 20:49:09,066  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:09,739  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（机械类）","  --    --    --  3/662/663/661(725)  --  ",4002);
+2019-05-19 20:49:10,651  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:11,414  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("软件工程","19A+  --  2/659/665/654（724）  --  2/673/675/671（640）  --  2/664/667/661(725)  --  ",4002);
+2019-05-19 20:49:11,739  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:13,598  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("建筑学（五年）","2A++  --  2/664/664/664（437）  --  2/678/690/683（339）  --  2/663/664/661（725）  --  ",4002);
+2019-05-19 20:49:14,023  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:14,637  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("工科试验班（电气类）","  --  （18）25/661/668/652(793)  --  9/674/679/670（676）  --  （10）11/665/673/661(725)  --  ",4002);
+2019-05-19 20:49:14,960  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:15,611  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("飞行器制造工程","C+  --    --    --  1/660(758)  --  ",4002);
+2019-05-19 20:49:15,926  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:16,598  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("机械类（中外合作办学）","  --  5/655/658/652(793)  --  （5）3/672/675/668（733）  --  (5)6/662/665/660（758）  --  ",4002);
+2019-05-19 20:49:16,940  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:17,572  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("材料科学与工程","B+  --  1/653(758）  --  1/669（714）  --  （2）4/662/667/660（758）  --  ",4002);
+2019-05-19 20:49:18,611  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:19,288  - INFO-[218] - 插入专业信息-pro：4002-insert into profession(professionName,professionInf,schoolId_id) values("社会科学试验班（管理类）","  --  （2）1/661（518）  --  1/674（556）  --  （1）4/663/666/660（758）  --  ",4002);
+2019-05-19 20:49:19,651  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:19,973  - INFO-[81] - 学校未插入，现在插入学校信息--中国人民大学(苏州校区)
+2019-05-19 20:49:20,302  - INFO-[85] - 中国人民大学(苏州校区)--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(3081,"中国人民大学(苏州校区)","教育部","19","苏州市","985/A","1-1-1-1-1");
+2019-05-19 20:49:20,302  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,2,2,659,189,1148,3081);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,2,2,661,212,743,3081);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,2,2,669,195,771,3081);
+
+2019-05-19 20:49:21,374  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:49:21,687  - INFO-[218] - 插入专业信息-pro：3081-insert into profession(professionName,professionInf,schoolId_id) values("金融学类(中外合作办学）","  --    --  1/659（1148）  --  1/665(624)  --  ",3081);
+2019-05-19 20:49:22,002  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:23,255  - INFO-[218] - 插入专业信息-pro：3081-insert into profession(professionName,professionInf,schoolId_id) values("经济学类（中外合作办学）","  --    --  1/659（1132)  --  1/661(725）  --  ",3081);
+2019-05-19 20:49:23,578  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:24,000  - INFO-[81] - 学校未插入，现在插入学校信息--南开大学
+2019-05-19 20:49:24,335  - INFO-[85] - 南开大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1201,"南开大学","教育部","21","天津市","985/A","分数优先");
+2019-05-19 20:49:24,336  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,42,46,663,193,984,1201);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,39,44,658,209,864,1201);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,40,42,665,191,962,1201);
+
+2019-05-19 20:49:25,290  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:49:25,625  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("金融学类","  --  2/664/665/664(437)  --  2/680/680/679（434）  --  (2）3/670/672/668(531)  --  ",1201);
+2019-05-19 20:49:25,937  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:26,555  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("经济学类","  --  2/658/659/658(599)  --  （2）3/670/674/668（758）  --  2/668/669/667(562)  --  ",1201);
+2019-05-19 20:49:26,872  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:28,819  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("数学类","  --  4/661/664/660(546)  --  4/673/678/670(696)  --  (4）5/668/672/667（562)  --  ",1201);
+2019-05-19 20:49:29,160  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:30,427  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("会计学（国际会计）","12A+  --  2/662/663/661(518)  --  2/671/671/670(678)  --  2/666/667/665(624)  --  ",1201);
+2019-05-19 20:49:30,772  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:31,519  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("物理学类 ","  --  2/660/662/658(599)  --  2/667/667/667(789)  --  2/665/665/664（647)  --  ",1201);
+2019-05-19 20:49:32,457  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:33,088  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("计算机类","  --  2/655/657/653(758)  --  2/667/667/667(795)  --  2/664/664/664(647)  --  ",1201);
+2019-05-19 20:49:33,407  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:34,775  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("化学类 ","  --  4/658/663/656(663)  --  (5)6/667/671/665(877)  --  (5)6/662/668/660(758)  --  ",1201);
+2019-05-19 20:49:35,115  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:36,401  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("电子信息类","  --  (2)3/654/657/652(793)  --  2/667/668/666(823)  --  (2)3/661/664/660(758)  --  ",1201);
+2019-05-19 20:49:36,736  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:37,398  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("管理科学与工程类","  --    --  2/666/667/664(903)  --  2/662/664/659(794)  --  ",1201);
+2019-05-19 20:49:38,417  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:39,079  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("软件工程","29A  --  2/650/650/650（862）  --  4/665/667/664(892)  --  2/661/662/659(794)  --  ",1201);
+2019-05-19 20:49:39,408  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:40,088  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("生命科学类 ","  --  （2）3/653/657/651（828）  --  (2)3/667/670/665（862）  --  2/660/661/659(794)  --  ",1201);
+2019-05-19 20:49:40,421  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:41,174  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("环境科学与工程类","  --    --    --  （4）5/660/663/659(794)  --  ",1201);
+2019-05-19 20:49:41,484  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:42,766  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("材料类","  --    --  4/666/667/665（848）  --  4/659/661/658（833）  --  ",1201);
+2019-05-19 20:49:43,121  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:44,903  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("法学类","30A  --    --  （2）3/663/663/663(982）  --  2/659/659/658（833）  --  ",1201);
+2019-05-19 20:49:45,224  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:46,499  - INFO-[218] - 插入专业信息-pro：1201-insert into profession(professionName,professionInf,schoolId_id) values("旅游管理类","  --    --  2/663/663/663（942)  --  （2）1/658（833）  --  ",1201);
+2019-05-19 20:49:47,421  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:47,763  - INFO-[81] - 学校未插入，现在插入学校信息--中央财经大学
+2019-05-19 20:49:48,184  - INFO-[85] - 中央财经大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1031,"中央财经大学","教育部","114","北京市","211/X","1-1-1-1-1");
+2019-05-19 20:49:48,184  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,43,46,661,191,1051,1031);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,43,47,655,206,984,1031);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,41,43,664,190,1032,1031);
+
+2019-05-19 20:49:49,766  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:49:50,089  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("金融学 ","8A+  --    --  2/675/680/669（702）  --  2/671/672/670（476）  --  ",1031);
+2019-05-19 20:49:50,440  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:51,828  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("金融工程","6A+  --  1/566（698）  --  （2）4/674/675/673（577）  --  （2）3/670/670/670（476）  --  ",1031);
+2019-05-19 20:49:52,160  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:52,838  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("工程管理类（会计学院）","  --    --    --  5/668/670/666（588）  --  ",1031);
+2019-05-19 20:49:53,157  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:54,507  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("金融学（国际金融与公司理财）","8A+  --  2/666/666/666（378）  --  2/671/671/670（672）  --  2/666/666/665（624）  --  ",1031);
+2019-05-19 20:49:55,421  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:56,796  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("经济与贸易类","  --    --    --  2/663/664/661（725）  --  ",1031);
+2019-05-19 20:49:57,171  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:57,959  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("数学类 ","  --    --    --  1/661（725）  --  ",1031);
+2019-05-19 20:49:58,907  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:49:59,609  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("统计学类","  --  2/649/649/649（901）  --  2/670/673/666（833）  --  （3）4/665/669/661（725）  --  ",1031);
+2019-05-19 20:50:00,552  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:01,346  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("投资学","3A+  --  2/660/662/658（599）  --  2/672/672/671（654）  --  （3）4/665/668/661（725）  --  ",1031);
+2019-05-19 20:50:02,306  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:03,561  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("经济学类（含专业经济学、国民经济管理方向）","  --    --    --  5/660/662/658（833）  --  ",1031);
+2019-05-19 20:50:03,993  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:05,263  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("财政学类","  --    --    --  4/660/662/658（833）  --  ",1031);
+2019-05-19 20:50:05,588  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:06,575  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("应用心理学（经济心理学）","B+  --  2/644/644/644（1103）  --  2/664/664/663（932）  --  2/658/658/658（833）  --  ",1031);
+2019-05-19 20:50:07,528  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:09,223  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("财政学（财政理论与政策）","2A++  --  3/649/656/645（1061）  --  （4）3/666/667/665（850）  --  2/658/659/657（875）  --  ",1031);
+2019-05-19 20:50:09,604  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:12,236  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("计算机类","  --    --    --  2/658/659/657 （875）  --  ",1031);
+2019-05-19 20:50:13,174  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:14,543  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("工商管理类（商学院）","  --    --    --  （3）5/657/661/656（919）  --  ",1031);
+2019-05-19 20:50:14,859  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:15,513  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("劳动与社会保障","B+  --  2/640/640/640（1283）  --  1/663（968）  --  2/656/656/655（956）  --  ",1031);
+2019-05-19 20:50:15,838  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:17,678  - INFO-[218] - 插入专业信息-pro：1031-insert into profession(professionName,professionInf,schoolId_id) values("电子商务类","  --    --    --  2/656/656/655（956）  --  ",1031);
+2019-05-19 20:50:18,082  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:18,400  - INFO-[81] - 学校未插入，现在插入学校信息--北京师范大学
+2019-05-19 20:50:18,713  - INFO-[85] - 北京师范大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1024,"北京师范大学","教育部","23","北京市","985/A","分数优先");
+2019-05-19 20:50:18,713  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,23,25,656,186,1312,1024);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,23,23,648,199,1273,1024);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,23,25,663,189,1058,1024);
+
+2019-05-19 20:50:19,720  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:50:20,046  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("理科试验班 ","  --  2/656/660/652（793）  --  2/6784/675/672（613）  --  2/658/659/657（875）  --  ",1024);
+2019-05-19 20:50:20,381  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:21,150  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("国际经济与贸易（瀚得试验班2班）","11A+  --  2/648/649/647（978）  --  2/670/674/665（866）  --  2/675/657/657（875）  --  ",1024);
+2019-05-19 20:50:21,486  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:22,125  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("数学与应用数学","12A+  --  2/653/654/653[758]  --  3/667/669/664[894]  --  3/658/659/656[919]  --  ",1024);
+2019-05-19 20:50:22,483  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:23,158  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("物理学（基地班）","16A  --  2/646/649/644[1103]  --  2/660/662/658[1209]  --  2/658/659/656[919]  --  ",1024);
+2019-05-19 20:50:24,187  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:24,846  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("统计学","15A+  --  2/639/644/635[1541J  --  2/660/661/659[1149]  --  2/653/654/652[1077]  --  ",1024);
+2019-05-19 20:50:25,170  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:25,829  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("化学","17A  --  (2)7/635/643/632[1726]  --  (2)3/656/657/656[1312]  --  2/653/655/651[1116]  --  ",1024);
+2019-05-19 20:50:26,150  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:26,782  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("资源环境科学（本研一体培养班）","1A++  --  2/642/644/641[1234]  --  (2)3/659/664/656[2274]  --  2/651/654/648[1246]  --  ",1024);
+2019-05-19 20:50:27,096  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:27,773  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("管理科学与工程类","  --  2/642/642/642[1180]  --  2/664/668/660（1110）  --  2/651/653/648[1246]  --  ",1024);
+2019-05-19 20:50:28,694  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:29,957  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("心理学","1A++  --  2/651/657/646[1011]  --  2/666/666/665[860]  --  2/651/653/648[1246]  --  ",1024);
+2019-05-19 20:50:30,286  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:31,048  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("生物科学类","  --  2/642/645/640[1283]  --  2/663/666/660[1089]  --  (2)4/651/655/648[J246]  --  ",1024);
+2019-05-19 20:50:31,372  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:32,025  - INFO-[218] - 插入专业信息-pro：1024-insert into profession(professionName,professionInf,schoolId_id) values("人力资源管理","17A  --    --  2/657/657/656（1288）  --  （2）无录取数据  --  ",1024);
+2019-05-19 20:50:32,964  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:33,289  - INFO-[81] - 学校未插入，现在插入学校信息--对外经济贸易大学
+2019-05-19 20:50:33,621  - INFO-[85] - 对外经济贸易大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(1032,"对外经济贸易大学","教育部","103","北京市","211/X","分数优先");
+2019-05-19 20:50:33,622  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,16,16,660,190,1085,1032);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,15,15,653,204,1044,1032);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,16,16,662,188,1125,1032);
+
+2019-05-19 20:50:34,684  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:50:35,013  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("金融工程","3A++  --  1/662[494]  --  1/670[677]  --  1/668[531]  --  ",1032);
+2019-05-19 20:50:35,332  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:36,015  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("金融数学","6A  --    --  1/662[1023]  --  1/665[624]  --  ",1032);
+2019-05-19 20:50:36,944  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:37,598  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("经济与金融","1A++  --  1/656[663]  --  1/665[876]  --  1/662[700]  --  ",1032);
+2019-05-19 20:50:38,006  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:38,648  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("税收学","C  --  1/646[1011]  --  1/664[900]  --  1/658[833]  --  ",1032);
+2019-05-19 20:50:38,970  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:39,732  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("金融学","6A++  --  3/650/654/646[1011]  --  2/671/673/668[745]  --  3/661/663/657[875]  --  ",1032);
+2019-05-19 20:50:40,114  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:40,980  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("精算学","B+  --    --  2/667/668/665[872]  --  2/658/660/655[956]  --  ",1032);
+2019-05-19 20:50:41,348  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:42,153  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("数据科学与大数据技术","C  --    --    --  1/655[956]  --  ",1032);
+2019-05-19 20:50:42,529  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:43,234  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("法学","18A+  --  1/645[1061]  --  1/660[1075]  --  1/654[995]  --  ",1032);
+2019-05-19 20:50:43,575  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:45,378  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("保险学","7A  --  3/649/650/647[978]  --  1/661[1054]  --  1/654[995]  --  ",1032);
+2019-05-19 20:50:45,698  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:46,444  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("  信息管理与信息系统","C  --  1/645[1061]  --  1/663[962]  --  1/654[995]  --  ",1032);
+2019-05-19 20:50:46,788  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:48,209  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("投资学","6A  --  1/649[901]  --  1/664[895]  --  1/ 653（1038)  --  ",1032);
+2019-05-19 20:50:48,536  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:49,203  - INFO-[218] - 插入专业信息-pro：1032-insert into profession(professionName,professionInf,schoolId_id) values("  财务管理","22A  --  1/652[793]  --  1/669[726]  --  1/653[1038]  --  ",1032);
+2019-05-19 20:50:49,530  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:49,878  - INFO-[81] - 学校未插入，现在插入学校信息--武汉大学
+2019-05-19 20:50:50,813  - INFO-[85] - 武汉大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(5001,"武汉大学","教育部","7","武汉市","985/A","分数优先");
+2019-05-19 20:50:50,815  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,67,67,651,181,1575,5001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,70,68,649,200,1242,5001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,71,69,662,188,1176,5001);
+
+2019-05-19 20:50:52,486  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:50:53,403  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("经济学类 ","  --    --  2/633/667/659[1142]  --  2/660/662/657 [875]]_  --  ",5001);
+2019-05-19 20:50:53,734  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:55,316  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("遥感科学与技术","1A++  --  (2)3/643/645/642[1180]  --  2/668/668/667[785]  --  2/658/658/657 [875]  --  ",5001);
+2019-05-19 20:50:56,680  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:58,747  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("计算机类","  --  (4)5/634/637/632[1726]  --  2/657/657/656[1275]  --  (2)1/657[87S] _    _  --  ",5001);
+2019-05-19 20:50:59,066  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:50:59,756  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("电气工程及其自动化","I2A+  --  (3)4/632/634/630[1848]   --  2/654/654/654[1405]  --  2/657/658/6S6    __  --  ",5001);
+2019-05-19 20:51:00,084  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:01,430  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("数学类","  --  (2)3/639/643/634[1584]   --  3/666/670/660[1071]  --  4/657/659/$55 [956]    _  --  ",5001);
+2019-05-19 20:51:01,762  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:02,378  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("工商管理类","  --    --  2/654/6S4/654U400]  --  2/656/657/655 [956]_  --  ",5001);
+2019-05-19 20:51:02,701  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:03,335  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("生物科学类","  --    --    --  2/655/656/6541995]  --  ",5001);
+2019-05-19 20:51:03,650  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:04,388  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("测绘类","  --  (8)9/638/650/633[1662]  --  9/659/665/654[1399]  --  7/655/657/653[1038]  --  ",5001);
+2019-05-19 20:51:05,746  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:06,428  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("口腔医学 （五年）","5A+  --    --    --  2/656/658/653 [1038]  --  ",5001);
+2019-05-19 20:51:06,763  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:07,390  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("管理科学与工程类","  --    --  2/655/657/653[1436]  --  2/655/656/653 [1038]  --  ",5001);
+2019-05-19 20:51:07,710  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:08,740  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("电子信息类","  --  (3)4/637/642/634[1584]  --  6/655/657/654[1416]  --  6/654/657/652 [1077]  --  ",5001);
+2019-05-19 20:51:09,049  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:11,000  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("软件工程","  --  (7)8/626/632/624[2243]   --  5/653/654/652[1509]  --  4/653/655/652 [1077]  --  ",5001);
+2019-05-19 20:51:11,924  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:12,572  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("化学类","  --  (2)3/635/643/626[2094]  --  2/660/662/658[1205]  --  3/654/657/652[1077]  --  ",5001);
+2019-05-19 20:51:12,898  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:14,635  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（八年医）","B+  --    --  2/668/674/661[1035]  --  (1)2/652/652/65211077]  --  ",5001);
+2019-05-19 20:51:15,049  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:15,720  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("物理学类","  --  (2)4/643/646/639[1335]   --  2/660/662/658[1214]  --  4/653/659/651[1116]  --  ",5001);
+2019-05-19 20:51:16,048  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:16,713  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("水利类","  --  4/642/650/635[1541]   --  (3)2/655/657/653[1434]  --  4/653/656/651[1116]  --  ",5001);
+2019-05-19 20:51:17,033  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:17,676  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("轻工类","  --  2/626/628/624[2243]      --  2/651/651/651[1548]  --  2/652/652/651(1116]  --  ",5001);
+2019-05-19 20:51:18,697  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:21,052  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（5+3医）","B+  --    --  2/656/657/654[1406]  --  2/652/652/651[1116]  --  ",5001);
+2019-05-19 20:51:21,979  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:24,443  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("公共卫生与预防医学类（五年）","  --  2/624/625/624[2243]      --  2/653/653/653[1452]  --  2/651/651/651[11163  --  ",5001);
+2019-05-19 20:51:24,769  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:26,049  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（五年）","B+  --  8/633/651/627[2031]  --  (1)2/654/654/653[1429]  --  2/651/651/650II157]  --  ",5001);
+2019-05-19 20:51:26,381  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:27,039  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("能源动力类","  --  2/638/647/630[1848]      --  2/653/654/652[1511]  --  2/650/650/650[1157)  --  ",5001);
+2019-05-19 20:51:27,967  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:28,618  - WARNING-[211] - 存在同学院相同专业名称-5001-临床医学（五年）;查询结果:((2574, '\xe4\xb8\xb4\xe5\xba\x8a\xe5\x8c\xbb\xe5\xad\xa6\xef\xbc\x88\xe4\xba\x94\xe5\xb9\xb4\xef\xbc\x89', 'B+  --  8/633/651/627[2031]  --  (1)2/654/654/653[1429]  --  2/651/651/650II157]  --  ', 5001),)
+2019-05-19 20:51:28,618  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（五年）3","B+  --    --    --  (1)2/651/651/650[1157]  --  ",5001);
+2019-05-19 20:51:28,977  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:30,266  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("土木类","  --  4/628/632/625[2174]      --  (3)2/651/651/651[1575]  --  2/651/652/649[1199]  --  ",5001);
+2019-05-19 20:51:30,601  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:31,378  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("地理科学类","  --  2/631/635/627[2031]  --  2/652/652/651[1570]  --  2/650/651/649[1199]  --  ",5001);
+2019-05-19 20:51:31,706  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:32,368  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("建筑类（五年〉","  --  2/634/635/634[1584]      --  2/653/653/652[J505]  --  2/650/651/649[1199]  --  ",5001);
+2019-05-19 20:51:32,690  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:33,358  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("药学类","  --  2/627/629/625[2174]      --  2/652/652/651[1546]  --  2/649/649/649[1199}  --  ",5001);
+2019-05-19 20:51:33,690  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:34,457  - INFO-[218] - 插入专业信息-pro：5001-insert into profession(professionName,professionInf,schoolId_id) values("                  土木类","  --    --    --  (1)2/651/652/649(1199)  --  ",5001);
+2019-05-19 20:51:34,775  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:35,104  - INFO-[81] - 学校未插入，现在插入学校信息--中山大学
+2019-05-19 20:51:35,444  - INFO-[85] - 中山大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(6001,"中山大学","教育部","11","广州市","985/A","2-1-1-1-1");
+2019-05-19 20:51:35,444  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,49,49,657,187,1266,6001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,49,49,644,195,1475,6001);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,45,45,659,185,1313,6001);
+
+2019-05-19 20:51:36,565  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:51:37,520  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("            临床医学（八年医）","4A+  --    --  2/679/681/677（480）  --  2/676/676/675（362）  --  ",6001);
+2019-05-19 20:51:37,923  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:39,329  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("临床医学（5年）","4A+  --  7/648/664/634[1584]  --  (5)7/670/674/664[898]  --  5/669/675/660[758]  --  ",6001);
+2019-05-19 20:51:39,691  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:41,279  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("经济学类","  --  4/650/660/643(1146]  --  4/666/671/662[985]  --  1/659[794]  --  ",6001);
+2019-05-19 20:51:41,645  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:42,497  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("预防医学（五年）","6A  --  （1）无录取数据  --  1/662[1007]  --  1/658[833]  --  ",6001);
+2019-05-19 20:51:42,855  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:44,167  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("金融类","19A  --    --    --  2/658/658/6571875]  --  ",6001);
+2019-05-19 20:51:44,767  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:45,474  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("数学类 ","  --  2/647/648/647[978]  --  1/662[995]  --  2/656/656/655[956]  --  ",6001);
+2019-05-19 20:51:45,871  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:46,714  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("微电子科学与工程","B+  --  1/634[1584]  --  1/663[958]  --  1/655C956]  --  ",6001);
+2019-05-19 20:51:47,387  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:48,832  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("生物科学类","  --  (2)4/635/653/627[2031]  --  2/661/665/657[1266]  --  2/655/655/654[995]  --  ",6001);
+2019-05-19 20:51:49,756  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:50,461  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("光电信息科学与工程（工学）","B+  --    --  2/658/659/657[1232]  --  1/654[995]  --  ",6001);
+2019-05-19 20:51:51,437  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:52,766  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("智能科学与技术","C+  --    --    --  (2)4/658/662/653[1038]  --  ",6001);
+2019-05-19 20:51:53,677  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:54,451  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("汁算机类","  --  (2)3/641/645/638[1373]  --  2/664/664/664[909]  --  2/653/655/65![1116]  --  ",6001);
+2019-05-19 20:51:55,802  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:56,585  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("药学（六年）","5A+  --  (2)1/62712031]  --  2/658/659/657[1261]  --  1/651[1116]  --  ",6001);
+2019-05-19 20:51:57,069  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:58,427  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("自动化 ","B+  --    --    --  1/650[1157]  --  ",6001);
+2019-05-19 20:51:58,752  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:51:59,417  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("软件工程","15A+  --  (7)5/635/640/632[1726]  --  2/663/663/66211005]  --  7/653/658/649[1199]  --  ",6001);
+2019-05-19 20:52:00,078  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:00,744  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("海洋科学","3A  --    --  (2)1/658[1180]  --  1/649[1199]  --  ",6001);
+2019-05-19 20:52:01,124  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:03,033  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("化学工程与工艺","24A  --    --    --  1/649[1199]  --  ",6001);
+2019-05-19 20:52:04,059  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:05,354  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("大气科学类","  --  2/631/633/629[1903]  --  2/657/657/657(1248]  --  2/648/649/646[1333]  --  ",6001);
+2019-05-19 20:52:05,733  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:06,453  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("生物医学工程","B+  --    --    --  1/646[1333]  --  ",6001);
+2019-05-19 20:52:06,782  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:07,497  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("口腔医学(5+3医)(5+3)","4A+  --  1/631[1794]  --  2/676/676/675[537]  --  (2)1/646[1333]  --  ",6001);
+2019-05-19 20:52:07,928  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:08,611  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("旅游管理类","  --  (3)2/632/636/628[1963]  --  (5)6/659/662/657[1221]  --  (1)3/651/653/646[1533]  --  ",6001);
+2019-05-19 20:52:10,556  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:12,592  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("材料类","  --    --  2/664/665/662[1018]  --  2/648/650/645[1S84]  --  ",6001);
+2019-05-19 20:52:13,552  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:14,987  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("逻辑学","1A++  --  (2)1/634[1584]  --  (2)1/659[1135]  --  i/645[iaa4]  --  ",6001);
+2019-05-19 20:52:15,341  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:16,694  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("理论与应用力学","B  --    --    --  1/645[1384)  --  ",6001);
+2019-05-19 20:52:17,178  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:18,509  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("工商管理","4A++  --    --    --  2/647/650/644[1433]  --  ",6001);
+2019-05-19 20:52:19,536  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:20,288  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("环境科学与工程类","  --  (1)3/640/649/636[1485]  --  1/658[1169]  --  1/64411433]  --  ",6001);
+2019-05-19 20:52:20,740  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:21,951  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("地理科学类","  --  (2)3/641/663/626[2094]  --  2/660/660/659[1134]  --  (3)1/644[1433]  --  ",6001);
+2019-05-19 20:52:22,365  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:23,061  - INFO-[218] - 插入专业信息-pro：6001-insert into profession(professionName,professionInf,schoolId_id) values("地质学类","  --  (2)1/627[2031]  --  (1)无录取数据  --  (1)无录取数据  --  ",6001);
+2019-05-19 20:52:24,108  - INFO-[222] - 插入专业信息-successd
+2019-05-19 20:52:24,434  - INFO-[81] - 学校未插入，现在插入学校信息--华东师范大学
+2019-05-19 20:52:25,789  - INFO-[85] - 华东师范大学--插入成功:insert into schoolInf(schoolId,schoolName,schoolHead,schoolSort,school_local,schooltype,professionAnPai) values(4012,"华东师范大学","教育部","33","上海市","985/A","2-1-1-0-0");
+2019-05-19 20:52:25,789  - INFO-[187] - 现在插入2016-2018 学院招生信息：
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2016,0,0,0,0,99999999,4012);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2017,0,0,0,0,99999999,4012);
+insert into schoolInfEnPlanInf(year,planNum,toudangNum,lowgrade,xiancha,lowlocal,schoolId_id) values(2018,8,9,656,182,1565,4012);
+
+2019-05-19 20:52:27,974  - INFO-[192] - 现在插入2016-2018 学院招生信息--成功；
+2019-05-19 20:52:28,002  - ERROR-[203] - 获取专业信息-failed;原因:[4012.0, u'\u534e\u4e1c\u5e08\u8303\u5927\u5b66', u'33', u'', u'', u'', u'', u'', u'', u'8/9', u'656 182 ', u'1565', u'\u6559\u80b2\u90e8', u'\u4e0a\u6d77\u5e02', u'985/A', u'2-1-1-0-0', u'', u'', u'', u'', u'', u'']
