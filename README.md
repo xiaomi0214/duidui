@@ -16,6 +16,6 @@
 
   3.部署
   
-  docker pull ccr.ccs.tencentyun.com/xiong/gaokao:v1
-  docker run -d -p 8000:8000 --name gaokaoServer ccr.ccs.tencentyun.com/xiong/gaokao:v1
-  访问：http://ip:8000
+  docker pull ccr.ccs.tencentyun.com/xiong/gaokao:v1  
+  docker run -d -p 8000:8000 --name gaokaoServer ccr.ccs.tencentyun.com/xiong/gaokao:v1  
+  访问：http://ip:8000  
