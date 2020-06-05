@@ -1,4 +1,4 @@
-Django==1.11.20
+Django==1.11.29
 lxml==4.3.3
 numpy==1.16.3
 pandas==0.24.2
